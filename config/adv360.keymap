@@ -60,11 +60,11 @@
 
         layer_coding_shift {
             bindings = <
- &trans  &kp UNDERSCORE  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &kp EQUAL  &trans
- &trans          &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans     &trans  &trans
- &trans          &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans
- &trans          &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans     &trans  &trans
- &trans          &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans     &trans  &trans
+ &trans  &kp UNDERSCORE  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT            &trans                                                  &trans  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &trans  &kp EQUAL  &trans
+ &trans          &trans       &trans    &trans      &trans       &trans            &trans                                                  &trans     &trans         &trans        &trans  &trans     &trans  &trans
+ &trans          &trans       &trans    &trans      &trans       &trans            &trans  &trans  &trans                  &trans  &trans  &trans     &trans         &trans        &trans  &trans     &trans  &trans
+ &trans          &trans       &trans    &trans      &trans       &trans                            &trans                  &trans                     &trans         &trans        &trans  &trans     &trans  &trans
+ &trans          &trans       &trans    &trans      &trans                         &trans  &trans  &trans                  &trans  &trans  &trans                    &trans        &trans  &trans     &trans  &trans
             >;
         };
 
