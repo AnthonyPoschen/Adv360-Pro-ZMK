@@ -1,1 +1,18 @@
-[]
+[
+	{
+		"code": "&lm",
+		"name": "&lm",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&lm 2 LSHIFT",
+		"name": "&lm 2 LSHIFT",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	}
+]
