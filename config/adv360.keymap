@@ -50,7 +50,7 @@
 
         layer_coding {
             bindings = <
-    &kp TILDE  &kp EXCLAMATION  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE            &trans                                                  &kp GRAVE  &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp EQUAL  &trans
+    &kp GRAVE  &kp EXCLAMATION  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE            &trans                                                  &kp GRAVE  &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp EQUAL  &trans
        &trans           &trans            &trans          &trans                &trans            &trans            &trans                                                     &trans             &trans                 &trans           &trans             &trans     &trans  &trans
        &trans           &trans            &trans          &trans                &trans            &trans            &trans  &trans  &trans                  &trans  &trans     &trans             &trans                 &trans           &trans             &trans     &trans  &trans
  &lm 2 LSHIFT           &trans            &trans          &trans                &trans            &trans                            &trans                  &trans                                &trans                 &trans           &trans             &trans     &trans   &mo 2
@@ -60,11 +60,11 @@
 
         layer_coding_shift {
             bindings = <
- &kp TILDE2  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT            &trans                                                  &trans  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &trans  &kp PLUS  &trans
-     &trans           &trans       &trans    &trans      &trans       &trans            &trans                                                  &trans     &trans         &trans        &trans  &trans    &trans  &trans
-     &trans           &trans       &trans    &trans      &trans       &trans            &trans  &trans  &trans                  &trans  &trans  &trans     &trans         &trans        &trans  &trans    &trans  &trans
-     &trans           &trans       &trans    &trans      &trans       &trans                            &trans                  &trans                     &trans         &trans        &trans  &trans    &trans  &trans
-     &trans           &trans       &trans    &trans      &trans                         &trans  &trans  &trans                  &trans  &trans  &trans                    &trans        &trans  &trans    &trans  &trans
+ &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT            &trans                                                  &trans  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &trans  &kp PLUS  &trans
+ &trans           &trans       &trans    &trans      &trans       &trans            &trans                                                  &trans     &trans         &trans        &trans  &trans    &trans  &trans
+ &trans           &trans       &trans    &trans      &trans       &trans            &trans  &trans  &trans                  &trans  &trans  &trans     &trans         &trans        &trans  &trans    &trans  &trans
+ &trans           &trans       &trans    &trans      &trans       &trans                            &trans                  &trans                     &trans         &trans        &trans  &trans    &trans  &trans
+ &trans           &trans       &trans    &trans      &trans                         &trans  &trans  &trans                  &trans  &trans  &trans                    &trans        &trans  &trans    &trans  &trans
             >;
         };
 
